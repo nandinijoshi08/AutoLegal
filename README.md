@@ -5,6 +5,6 @@ AutoLegal is an intelligent contract analysis system designed to assist legal pr
 <br> <br>
 
 ## Core Functionalities:
-•	Clause Detection and Classification: Identifies and categorizes different clauses within a contract, such as confidentiality, indemnity, or termination.<br>
+•	Clause Detection and Classification: Identifies and categorizes different clauses, such as confidentiality, indemnity, or termination.<br>
 •	Legal Glossary: Provides both a formal legal-style definition and a simplified explanation of legal terms, ensuring that the user gains both accuracy and clarity.<br>
 •	Contract Summarization: Generates concise and legally precise summaries of uploaded contracts, highlighting essential obligations and provisions.<br>
