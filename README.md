@@ -1,0 +1,2 @@
+# AutoLegal
+Legal AI Assistant
