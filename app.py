@@ -1,5 +1,4 @@
 import time
-
 import streamlit as st
 
 from utils.extract_text import extract_text_from_pdf
