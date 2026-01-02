@@ -1,13 +1,15 @@
 from google import genai
 import json 
 
+# method to load glossary JSON file
 def load_glossary():
     try:
         with open("utils/legal_glossary.json", "r") as f:
             return json.load(f)
     except FileNotFoundError:
         return {}
-
+ 
+# method to generate summary of uploaded contract
 def generate_summary(contract_text):
     client = genai.Client(api_key = "your_gemini_api_key")
 
