@@ -1,7 +1,7 @@
 import re
 from google import genai
 
-
+# method to extract clauses from contract for detection
 def split_into_clauses(text: str) -> list:
     text = re.sub(r'\n+', '\n', text) #replaces multiple line breaks with a single one (\n+ to \n)
     text = text.replace('\n', ' ') #flatten to one line
@@ -19,7 +19,7 @@ def split_into_clauses(text: str) -> list:
 
     return chunks
 
-
+# clause detection method
 def classify_clause(clause_text: str) -> str:
     client = genai.Client(api_key = "your_gemini_api_key")
     prompt = f"You are a legal assistant. Your task is to identify the type of legal clause provided.\n Please respond with only the clause type, such as 'Confidentiality Clause' or 'Indemnity Clause'.\n\n Clause: {clause_text}."
