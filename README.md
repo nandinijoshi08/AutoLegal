@@ -1,5 +1,5 @@
 # AutoLegal
-### Legal AI Assistant
+## Legal AI Assistant
 
 AutoLegal is an intelligent contract analysis system designed to assist legal professionals, students, start-ups, and individuals in understanding and managing contracts efficiently. The system leverages Python, Streamlit, pdfplumber, and Gemini API to analyse legal documents and extract meaningful insights. 
 <br> <br>
